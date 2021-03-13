@@ -9,7 +9,7 @@ create table sys_role_device(
 ) engine=innodb comment = '角色和设备关联表';
 
 -- ----------------------------
--- 初始化-角色和设备关联表数据
+-- 初始化-角色和设备关联表数据 ()
 -- ----------------------------
 insert into sys_role_device values ('2', '100');
 insert into sys_role_device values ('2', '101');
